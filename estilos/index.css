@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("https://st.depositphotos.com/30440304/54516/i/450/depositphotos_545166884-stock-photo-style-black-background-geometric-layers.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    width: 30%;
+    margin: 10% auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: black;
+    padding: 3% 0;
+    border-radius: 15px;
+    box-shadow: 0 0 250px white;
+}   
+
+h1{
+    color: white;
+    margin-bottom: 3%;
+    font-size: 1.5em;
+    text-shadow: 0 0 25px white, 0 0 25px white;
+}
+
+.btn1{
+    margin: 3% 0;
+    width: 60%;
+    padding: 1.5%;
+    background: rgb(232, 164, 61);
+    font-size: 1.5em;
+}
+
+.btn1:hover{
+    background: rgb(158, 102, 17);
+    color: white;
+    cursor: pointer;
+
+}

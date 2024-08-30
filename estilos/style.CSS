@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Pacifico&family=Righteous&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nav{
+    background: black;
+    padding: 0.3%;
+    display: flex;
+    flex-direction: row;
+}
+
+.back{
+    width: 3%;
+    text-align: center;
+}
+
+.btn11{
+    width: 50%;
+    padding: 0.5%;
+    background: rgb(232, 164, 61);
+    border: none;
+    border-radius: 5px;
+    border-radius: 50%;
+}
+
+.btn11:hover{
+    background: rgb(158, 102, 17);
+    color: white;
+}
+
+.btns{
+    width: 97%;
+    text-align: center;
+}
+
+.btn1{
+    width: 10%;
+    padding: 0.5%;
+    background: rgb(232, 164, 61);
+    border: none;
+    border-radius: 5px;
+}
+
+.btn1:hover{
+    background: rgb(158, 102, 17);
+    color: white;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+/* estilos del contenedor del formulario y el formulario */
+.container-form{
+    border-right: 1px solid gray;
+    width: 30%;
+    height: 93.6vh;
+    text-align: center;
+    background: rgb(236, 232, 232);
+}
+
+.container-form form{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+}
+
+.container-form form h1{
+    margin: 5%;
+}
+
+.container-form form input, .btn2{
+    margin: 5% 1%;
+    padding: 1%;
+    border-radius: 5px;
+}
+
+.container-form form input:focus{
+    box-shadow: 0 0 15px black;
+    border: none;
+    outline-color: rgb(232, 164, 61);
+}
+
+.container-form form .btn2{
+    border: none;
+    background: rgb(232, 164, 61);
+}
+
+.container-form form .btn2:hover{
+    background: rgb(100, 175, 26);
+}
+
+/* estilos del contenedor de la tabla y la tabla */
+.container-table{
+    width: 70%;
+    text-align: center;
+}
+
+.container-table table{
+    width: 95%;
+    margin: 2% auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.container-table th{
+    border: 1px solid black;
+    background: black;
+    color: white;
+}
+
+.container-table td{
+    border: 1px solid black;
+}
+
+.container-table tr:hover{
+    background: gray;
+}
+
+.container-table h2{
+    position: absolute;
+    bottom: 0;
+    width: 59.8%;
+    font-size: 20px;
+}
